@@ -31,10 +31,11 @@
         android:layout_marginTop="10dp">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/kids"
             android:layout_width="379dp"
             android:layout_height="39dp"
-            app:srcCompat="@drawable/abc" />
+            app:srcCompat="@drawable/abc"
+            android:contentDescription="@string/todo" />
 
 
     </LinearLayout>
@@ -51,21 +52,24 @@
             android:id="@+id/a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="A"/>
+            android:text="@string/a"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:text="B" />
+            android:layout_marginStart="5dp"
+            android:text="@string/b"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/c"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="C" />
+            android:text="@string/c"
+            android:onClick="buttonPress"/>
 
 
 
@@ -84,20 +88,23 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
 
-            android:text="D" />
+            android:text="@string/d"
+            android:onClick="buttonPress"/>
         <Button
             android:id="@+id/e"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:text="E" />
+            android:layout_marginStart="5dp"
+            android:text="@string/e"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/f"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:text="F" />
+            android:layout_marginStart="5dp"
+            android:text="@string/f"
+            android:onClick="buttonPress"/>
 
 
 
@@ -114,7 +121,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="G" />
+            android:text="@string/g"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/h"
@@ -122,14 +130,16 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
 
-            android:text="H" />
+            android:text="@string/h"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/i"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="I" />
+            android:text="@string/i"
+            android:onClick="buttonPress"/>
 
 
     </LinearLayout>
@@ -144,21 +154,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="J" />
+            android:text="@string/j"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/k"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="k" />
+            android:text="@string/k"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/l"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="l" />
+            android:text="@string/l"
+            android:onClick="buttonPress"/>
 
 
     </LinearLayout>
@@ -173,21 +186,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="m" />
+            android:text="@string/m"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/n"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="n" />
+            android:text="@string/n"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/o"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="o" />
+            android:text="@string/o"
+            android:onClick="buttonPress"/>
 
 
     </LinearLayout>
@@ -203,21 +219,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="p" />
+            android:text="@string/p"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/q"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="q" />
+            android:text="@string/q"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/r"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="r" />
+            android:text="@string/r"
+            android:onClick="buttonPress"/>
     </LinearLayout>
 
     <LinearLayout
@@ -231,14 +250,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="s" />
+            android:text="@string/s"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/t"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="t" />
+            android:text="@string/t"
+            android:onClick="buttonPress"/>
 
 
 
@@ -247,7 +268,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="u" />
+            android:text="@string/u"
+            android:onClick="buttonPress"/>
 
 
 
@@ -266,21 +288,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="v" />
+            android:text="@string/v"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/w"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="w" />
+            android:text="@string/w"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/x"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="x" />
+            android:text="@string/x"
+            android:onClick="buttonPress"/>
 
 
     </LinearLayout>
@@ -295,14 +320,16 @@
             android:id="@+id/y"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="y" />
+            android:text="@string/y"
+            android:onClick="buttonPress"/>
 
         <Button
             android:id="@+id/z"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="z" />
+            android:text="@string/z"
+            android:onClick="buttonPress"/>
 
     </LinearLayout>
 
